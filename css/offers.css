@@ -29,6 +29,11 @@
   display: inline-block;
 }
 
+.card.japao {
+  background: url(../img/Japao.jpg) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 1024px) {
   .card {
     width: 588px;
