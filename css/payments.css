@@ -1,0 +1,92 @@
+.payments {
+    width: 312px;
+    margin: 0 auto;
+}
+
+.payments .image-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.payments .image-content .image-bag {
+    background: url(../img/img-malas.png);
+    background-size: cover;
+}
+
+.payments .image-content .image-passaport {
+    background: url(../img/img-passaporte.png);
+    background-size: cover;
+}
+
+.payments .image-content .image-people {
+    background: url(../img/img-pessoas.png);
+    background-size: cover;
+}
+
+.payments .image-content .image-people {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+
+    .payments {
+        width: 648px;
+    }
+
+    .payments .image-content {
+        height: 648px;
+    }
+
+    .payments .image-content .image-bag {
+        background: url(../img/img-malas-tablet.png);
+        background-size: cover;
+    }
+
+    .payments .image-content .image-passaport {
+        background: url(../img/img-passaporte-tablet.png);
+        background-size: cover;
+    }
+
+    .payments .image-content .image-people {
+        background: url(../img/img-pessoas-tablet.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .payments {
+        width: 900px;
+    }
+
+    .payments .image-content .image-bag {
+        background: url(../img/img-malas-tablet.png);
+        background-size: cover;
+    }
+
+    .payments .image-content .image-passaport {
+        background: url(../img/img-passaporte-tablet.png);
+        background-size: cover;
+    }
+
+    .payments .image-content .image-people {
+        background: url(../img/img-pessoas-tablet.png);
+        background-size: cover;
+    }
+
+    .payments .content-payment {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payments .content-payment .text-content {
+        width: 360px;
+    }
+
+    .payments .content-payment .image-content {
+        width: 790px;
+    }
+}
