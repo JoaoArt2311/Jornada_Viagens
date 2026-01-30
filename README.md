@@ -38,12 +38,16 @@ Mais do que um site de viagens, a Jornada Viagens nasce com a missão de transfo
 <p align="center">
   <img src="https://github.com/JoaoArt2311/Jornada_Viagens/blob/main/img-readme/Macbook-Air-nav_home.png">
 </p>
+<br>
+<br>
 
 <h3 align="center"> Pagina Ofertas </h3>
 
 <p align="center">
   <img src="https://github.com/JoaoArt2311/Jornada_Viagens/blob/main/img-readme/Macbook-Air-ofertas_home.png">
 </p>
+<br>
+<br>
 
 <h3 align="center"> Pagina Footer </h3>
 
