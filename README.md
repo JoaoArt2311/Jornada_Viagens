@@ -11,6 +11,8 @@ O foco da Jornada Viagens é oferecer preços justos, acessíveis e transparente
 
 Mais do que um site de viagens, a Jornada Viagens nasce com a missão de transformar o ato de viajar em uma experiência tranquila desde o planejamento até o destino final, ajudando cada cliente a viver novas jornadas com segurança, economia e confiança.</p>
 
+<h2></h2>
+
 <p align="center">
   <img src="https://github.com/JoaoArt2311/Jornada_Viagens/blob/main/img/banner-jornada.png">
 </p>
