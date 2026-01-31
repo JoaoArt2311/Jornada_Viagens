@@ -31,6 +31,30 @@ Mais do que um site de viagens, a Jornada Viagens nasce com a missão de transfo
 
 <h2>Imagens</h2>
 
+<h3>Mackbook Air</h3>
+
+<h3 align="center"> Pagina Home</h3>
+
+<p align="center">
+  <img src="https://github.com/JoaoArt2311/Jornada_Viagens/blob/main/img-readme/Macbook-Air-nav_home.png">
+</p>
+<br>
+<br>
+
+<h3 align="center"> Pagina Ofertas </h3>
+
+<p align="center">
+  <img src="https://github.com/JoaoArt2311/Jornada_Viagens/blob/main/img-readme/Macbook-Air-ofertas_home.png">
+</p>
+<br>
+<br>
+
+<h3 align="center"> Pagina Footer </h3>
+
+<p align="center">
+  <img src="https://github.com/JoaoArt2311/Jornada_Viagens/blob/main/img-readme/Macbook-Air-footer_home.png">
+</p>
+
 
 <p align="center">
   <img src="https://github.com/JoaoArt2311/Jornada_Viagens/blob/main/img/banner-jornada.png">
