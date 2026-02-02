@@ -1,0 +1,94 @@
+.pagamento-destino{
+    padding-top: 24px;
+    width: 312px;
+    margin: 0 auto;
+}
+
+.pagamento-destino .content-pagamento-destino .text-content-pagamento h2{
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.pagamento-destino .content-pagamento-destino .text-content-pagamento h3{
+    font-size: 28px;
+    line-height: 100%;
+}
+
+.pagamento-destino .content-pagamento-destino .text-content-pagamento p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.text-content-pagamento .button{
+    text-align: center;
+    width: 100%;
+}
+
+.content-pagamento-destino .grid-imagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.pagamento-destino .grid-imagens .primeira-destino{
+    background: url(../img-destino/primeira-img-destino_mobile.png);
+    background-size: cover;
+}
+
+.pagamento-destino .grid-imagens .segunda-destino{
+    background: url(../img-destino/segunda-imagem-destino_mobile.png);
+    background-size: cover;
+}
+
+.pagamento-destino .grid-imagens .terceira-destino{
+    grid-column: 1 / -1;
+    background: url(../img-destino/terceira-imagem-destino_mobile.png);
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px){
+    .pagamento-destino{
+        width: 648px;
+    }
+
+    .pagamento-destino .content-pagamento-destino .button{
+        display: none;
+    }
+
+    .pagamento-destino .grid-imagens .primeira-destino{
+        background: url(../img-destino/primeira-img-destino_tablet.png);
+        background-size:cover;
+    }
+
+    .pagamento-destino .grid-imagens .segunda-destino{
+        background: url(../img-destino/segunda-img-destino_tablet.png);
+        background-size: cover;
+    }
+
+    .pagamento-destino .grid-imagens .terceira-destino{
+        background: url(../img-destino/terceira-img-destino_tablet.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .pagamento-destino{
+        width: 900px;
+    }
+
+    .pagamento-destino .content-pagamento-destino{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pagamento-destino .content-pagamento-destino .text-content-pagamento{
+        width: 360px;
+    }
+
+    .pagamento-destino .content-pagamento-destino .grid-imagens{
+        width: 790px;
+    }
+}
