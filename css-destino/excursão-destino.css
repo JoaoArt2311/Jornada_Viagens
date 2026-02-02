@@ -1,0 +1,120 @@
+.excursao{
+    width: 312px;
+    margin: 0 auto ;
+}
+
+.offers-cards-destino{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.excursao .card-item .destino-card{
+    display: block;
+    background-color: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.excursao .card-item .img-item-tokyo-destino{
+    width: 100%;
+    height: 368px;
+}
+
+.excursao .card-item .img-item-osaka-destino{
+    width: 100%;
+    height: 368px;
+}
+
+.excursao .offers-cards-destino .card-item .destino-card .img-item-tokyo-destino{
+    background: url(../img-destino/Tokyo_destino-mobile.jpg);
+    background-size: cover;
+}
+
+.excursao .offers-cards-destino .card-item .destino-card .img-item-osaka-destino{
+    background: url(../img-destino/Osaka_destino-mobile.jpg);
+    background-size: cover;
+}
+
+.excursao .card-item .destino-card h4{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    margin: 24px 0;
+}
+
+.excursao .card-item p{
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.excursao .button{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .excursao{
+        width: 648px;
+    }
+
+    .excursao .offers-cards-destino .card-item .img-item-tokyo-destino{
+        background: url(../img-destino/Tokyo_destino-tablet.jpg);
+        background-size: cover;
+    }
+
+    .excursao .offers-cards-destino .card-item .img-item-osaka-destino{
+        background: url(../img-destino/Tokyo_destino-tablet.jpg);
+        background-size: cover;
+    }
+
+    .excursao .card-item .img-item-tokyo-destino{
+        width: 100%;
+        height: 452px;
+    }
+
+    .excursao .card-item .img-item-osaka-destino{
+        width: 100%;
+        height: 452px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+        .excursao{
+        width: 900px;
+        margin: 0 auto;
+    }
+
+        .offers-cards-destino{
+        display: flexbox;
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+    }
+
+        .excursao .offers-cards-destino .card-item .img-item-tokyo-destino{
+        background: url(../img/Tokyo_desktop.jpg);
+        background-size: cover;
+    }
+
+        .excursao .offers-cards-destino .card-item .img-item-osaka-destino{
+        background: url(../img/Osaka_mobile.jpg);
+        background-size: cover;
+    }
+
+        .excursao .card-item .img-item-tokyo-destino{
+        width: 100%;
+        height: 452px;
+    }
+
+        .excursao .card-item .img-item-osaka-destino{
+        width: 100%;
+        height: 452px;
+    }
+
+}
