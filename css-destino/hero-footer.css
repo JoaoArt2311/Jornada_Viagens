@@ -1,0 +1,34 @@
+.hero-footer-destino{
+    margin-top: 88px;
+}
+
+.hero-footer-destino .img-footer-destino{
+    background: url(../img-destino/img-hero-footer-destino_mobile.png);
+    background-size: cover;
+}
+
+.img-footer-destino{
+    height: 400px;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-footer-destino .img-footer-destino{
+        background: url(../img-destino/img-hero-footer-destino-tablet.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-footer-destino .img-footer-destino{
+        background: url(../img-destino/img-hero-footer-destino-desktop.png);
+        background-size: cover;
+    }
+
+    .hero-footer-destino .img-footer-destino{
+        height: 600px;
+        width: 100%;
+    }
+    
+}
