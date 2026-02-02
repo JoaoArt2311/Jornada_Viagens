@@ -45,29 +45,36 @@ body {
   color: var(--text-primary-color);
 }
 
-.content-title{
+.content-title-destino{
   font-size: 28px;
   font-weight: var(--text-weight);
 }
 
-.content-text{
+.content-text-destino{
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
 }
 
-.section-title h2 {
+.section-title-destino h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   text-align: center;
 }
 
-.section-title hr {
+.section-title-destino hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
+}
+
+.section-title-destino p{
+  color: var(--background-primary-color
+  );
+  font-weight: var(--text-weight);
+  
 }
 
 .button {

@@ -1,14 +1,15 @@
 .hero-img-destino{
-  height: 400px;
+  height: 460px;
   width: 100%;
   background-image: url(../img-destino/hero-img-destino_mobile.jpg);
-  background-position: right;
+  background-position: -250px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero-destino h2 {
-  padding: 88px 24px;
+  padding: 65px 24px;
+  padding-bottom: 16px;
   margin: 0px;
   font-weight: var(--text-weight);
   font-size: 20px;
@@ -16,23 +17,60 @@
   line-height: 1.5;
 }
 
+.hero-destino .hero-img-destino .section-title-destino h2{
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  text-align: left;
+  color: var(--background-primary-color);
+}
+
+.hero-destino .hero-img-destino .section-title-destino hr{
+  margin: 0px 24px;
+}
+
+.hero-destino .hero-img-destino .section-title-destino p{
+  padding: 32px 0;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 24px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img-destino {
+    background-position: 0%;
     height: 620px;
-    background-image: url(../img/foto-bonita-tablet.jpg);
+    background-image: url(../img-destino/image_hero_destino-tablet.png);
     background-size: cover;
   }
+
+  .hero-destino .hero-img-destino .section-title-destino{
+    padding-top:100px; 
+  }
+
   .hero-destino h2 {
-  padding: 88px 60px;
+  font-size: 48px;
+  line-height: 100%;
+  margin: 0 94px;
+}
+
+  .hero-destino .hero-img-destino .section-title-destino hr{
+    margin: 0px 125px;
+  }
+
+  .hero-destino .hero-img-destino .section-title-destino p{
   font-size: 32px;
+  line-height: 150%;
+  margin: 0 120px;
+
 }
 }
 
 @media screen and (min-width: 1024px) {
   .hero-img-destino {
-    background-image: url(../img/foto-bonita-desktop.jpg);
+    background-image: url(../img-destino/image_hero_destino-desktop.png);
   }
-  .hero-destino h2{
-    padding: 88px 200px;
+
+  .hero-destino .hero-img-destino .section-title-destino p{
+    width: 579px;
   }
 }
