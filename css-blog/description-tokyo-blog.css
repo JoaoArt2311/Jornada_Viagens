@@ -1,0 +1,90 @@
+.description-tokyo{
+    width: 312px;
+    margin: 0 auto ;
+}
+
+h4{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+     line-height: 100%;
+}
+
+p{
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.description-tokyo .img-chegada-blog{
+    background: url(../img-blog/img-chegada-mobile_blog.png);
+    background-size: cover;
+    height: 360px;
+    width: 312px;
+    margin-top: 24px;
+}
+
+.description-tokyo .img-acomodacao-blog{
+    background: url(../img-blog/img-acomodacao-mobile_blog.png);
+    background-size: cover;
+    height: 360px;
+    width: 312px;
+    margin-top: 24px;
+}
+
+#descrição{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .description-tokyo{
+    width: 648px;
+}
+
+    .text-chegada-blog{
+        height: 360px;
+        width: 312px;
+    }
+
+    .description-tokyo .juncao-text-blog{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text-acomodacao-blog .img-acomodacao-blog{
+        background: url(../img-blog/img-acomodacao-tablet_blog.png);
+        background-size: cover;
+        height: 300px;
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .description-tokyo{
+    width: 1000px;
+}   
+
+    .text-chegada-blog{
+        height: 160px;
+        width: 588px;
+    }
+
+    .description-tokyo .img-chegada-blog{
+        background: url(../img-blog/img-chegada-desktop_blog.png);
+        background-size: cover;
+        width: 588px;
+    }
+
+    .description-tokyo .juncao-text-blog{
+        gap: 24px;
+    }
+
+    .text-acomodacao-blog .img-acomodacao-blog{
+        background: url(../img-blog/img-acomodacao-desktop_blog.png);
+        background-size: cover;
+        height: 300px;
+        width: 1000px;
+    }    
+}
