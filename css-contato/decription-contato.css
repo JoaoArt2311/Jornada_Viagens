@@ -1,0 +1,22 @@
+.description{
+    width: 312px;
+    margin: 0 auto ;
+}
+
+p{
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .description{
+        width: 648px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .description{
+        width: 900px;
+    }
+}

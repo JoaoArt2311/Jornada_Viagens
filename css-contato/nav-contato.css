@@ -1,0 +1,105 @@
+.nav-contato{
+    background-color: var(--background-tertiary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 38px 48px;
+    position: relative;
+}
+
+.Logo-contato {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.logo-desktop-contato{
+    display: none;
+}
+
+.logo-mobile-contato{
+    display: block;
+}
+
+.navigation-menu-contato {
+  margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+}
+
+nav{
+    display: none;
+}
+
+.list-links-contato {
+  list-style: none;
+}
+
+.list-links-contato li {
+  margin: 16px 0;
+}
+
+.list-links-contato li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-menu-contato {
+    margin-top: 0;
+    width: 467px;
+  }
+
+  .navigation-menu-contato label {
+    display: none;
+  }
+
+  .navigation-menu-contato nav {
+    display: block;
+  }
+
+  .navigation-menu-contato ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav-contato .Logo-contato{
+    padding-top: 37px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-contato {
+    padding: 38px 120px;
+  }
+
+  .logo-desktop-contato {
+    display: block;
+  }
+  .logo-mobile-contato {
+    display: none;
+  }
+  .list-links-contato li a {
+    font-size: 20px;
+  }
+  .navigation-menu-contato {
+    width: 392px;
+  }
+
+  .navigation-menu-contato a:hover {
+    color: var(--primery-color);
+    text-decoration: underline;
+  }
+}

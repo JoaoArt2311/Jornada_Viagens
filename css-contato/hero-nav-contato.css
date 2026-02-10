@@ -1,0 +1,78 @@
+.hero-img-contato{
+  height: 460px;
+  width: 100%;
+  background-image: url(../img-contato/img-hero-nav-mobile_contato.png);
+  /* background-position: -250px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-contato h2 {
+  padding: 65px 24px;
+  padding-bottom: 16px;
+  margin: 0px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.hero-contato .hero-img-contato .section-title-contato h2{
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  text-align: left;
+  color: var(--background-primary-color);
+}
+
+.hero-contato .hero-img-contato .section-title-contato hr{
+  margin: 0px 24px;
+}
+
+.hero-contato .hero-img-contato .section-title-contato p{
+  color: white;
+  padding: 32px 0;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img-contato {
+    background-position: 0%;
+    height: 620px;
+    background-image: url(../img-contato/img-hero-nav-tablet_contato.png);
+    background-size: cover;
+  }
+
+  .hero-contato .hero-img-contato .section-title-contato{
+    padding-top:100px; 
+  }
+
+  .hero-contato h2 {
+  font-size: 48px;
+  line-height: 100%;
+  margin: 0 94px;
+}
+
+  .hero-contato .hero-img-contato .section-title-contato hr{
+    margin: 0px 125px;
+  }
+
+  .hero-contato .hero-img-contato .section-title-contato p{
+  font-size: 32px;
+  line-height: 150%;
+  margin: 0 120px;
+
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img-contato {
+    background-image: url(../img-contato/img-hero-nav-dasktop_contato.png   );
+  }
+
+  .hero-contato .hero-img-contato .section-title-contato p{
+    width: 579px;
+  }
+}
