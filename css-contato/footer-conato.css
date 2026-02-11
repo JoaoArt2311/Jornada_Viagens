@@ -66,7 +66,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .footer-black-contato{
+    .footer-contato{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 24px;
@@ -74,13 +74,13 @@
         width: 100%;
     }
 
-    .left-contato{
+    .left{
         padding: 0 25px;
         justify-self: start;
         text-align: left;
     }
 
-    .right-contato{
+    .right{
         padding-top: 27px;
         justify-self: end;
         text-align: right;
