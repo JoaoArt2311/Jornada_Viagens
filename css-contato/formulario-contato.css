@@ -74,3 +74,37 @@ textarea{
 .formulario .button{
     margin-top: 32px;
 }
+
+@media screen and (min-width: 1024px) {
+    .formulario{
+        width: 1000px;
+    }
+
+    .formulario .campo-description textarea{
+        width: 790px;
+    }
+
+    textarea {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .formulario .campo input{
+        width: 790px;
+    }
+
+    .formulario .igualando-pc{
+        display: flex;
+        flex-direction: row;
+        margin-left: 105px;
+        gap: 24px;
+    }
+
+    .formulario .igualando-pc .campo .camp-telephone{
+        width: 383px;
+    }
+
+    .formulario .igualando-pc .campo .camp-email{
+        width: 383px;
+    }    
+}
