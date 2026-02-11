@@ -1,0 +1,25 @@
+.img-hero-footer-blog{
+    width: 100%;
+    height: 400px;
+}
+
+.img-hero-footer-blog{
+    background: url(../img-blog/hero-footer-mobile_blog.png);
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .img-hero-footer-blog{
+        background: url(../img-blog/hero-footer-tablet_blog.png);
+        background-size: cover;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .img-hero-footer-blog{
+        background: url(../img-blog/hero-footer-desktop_blog.png);
+        background-size: cover;
+        height: 600px;
+    }
+}
