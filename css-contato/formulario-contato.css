@@ -1,0 +1,76 @@
+.formulario{
+    width: 312px;
+    margin: 56px auto;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #999;
+    outline: none;
+    background: transparent;
+    padding: 8px 4px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    line-height: 32px;
+}
+
+input:focus{
+    border-bottom-color: var(--secondary-color);
+}
+
+input:focus::placeholder{
+    color: var(--background-tertiary-color);
+}
+
+.formulario .campo{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.formulario .campo-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+label{
+    font-family: "Montserrat";
+    color: #999;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.formulario .campo-description textarea{
+    width: 312px;
+    height: 90px;
+    resize: none;
+    border: 2px solid #999;
+    font-family: "Montserrat";
+    font-size: 15px;
+    padding: 10px 12px;
+
+}
+
+.campo-description:focus-within label{
+    color: var(--background-tertiary-color);
+}   
+
+textarea{
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.formulario .campo-description textarea:focus {
+    border-color: var(--secondary-color);
+}
+
+.formulario .button-finalized{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario .button{
+    margin-top: 32px;
+}

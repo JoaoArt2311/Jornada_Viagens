@@ -7,6 +7,7 @@ p{
     font-weight: var(--text-weight);
     font-size: 20px;
     line-height: 32px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
